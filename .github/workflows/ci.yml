@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.26"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: go install github.com/wailsapp/wails/v2/cmd/wails@v2.14.0
+      - run: npm ci
+        working-directory: frontend
+      - run: wails build -platform windows/amd64 -nopackage
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Open365VPN-windows-amd64
+          path: build/bin/
