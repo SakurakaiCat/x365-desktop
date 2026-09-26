@@ -7,7 +7,7 @@ package tun
 import (
 	"errors"
 
-	"github.com/365vpn/x365/desktop/internal/logbus"
+	"github.com/SakurakaiCat/x365-desktop/internal/logbus"
 )
 
 type Manager struct{}

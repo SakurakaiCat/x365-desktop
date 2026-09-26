@@ -1,9 +1,9 @@
-module github.com/365vpn/x365/desktop
+module github.com/SakurakaiCat/x365-desktop
 
 go 1.26.3
 
 require (
-	github.com/365vpn/x365 v0.0.0
+	github.com/SakurakaiCat/x365-core v0.0.0
 	github.com/energye/systray v1.0.3
 	github.com/wailsapp/wails/v2 v2.14.0
 	github.com/xjasonlyu/tun2socks/v2 v2.7.0
@@ -60,4 +60,4 @@ require (
 	gvisor.dev/gvisor v0.0.0-20260701204157-69c2d17aea96 // indirect
 )
 
-replace github.com/365vpn/x365 => ../x365-core
+replace github.com/SakurakaiCat/x365-core => ../x365-core

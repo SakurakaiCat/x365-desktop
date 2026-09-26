@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	x365core "github.com/365vpn/x365/core"
+	x365core "github.com/SakurakaiCat/x365-core"
 )
 
 // Node represents a stored proxy node.

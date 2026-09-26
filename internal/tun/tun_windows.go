@@ -19,7 +19,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/365vpn/x365/desktop/internal/logbus"
+	"github.com/SakurakaiCat/x365-desktop/internal/logbus"
 )
 
 // Manager owns the tun2socks engine lifecycle for a single SOCKS5 upstream.

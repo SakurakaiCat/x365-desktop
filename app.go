@@ -11,13 +11,13 @@ import (
 
 	wailsRuntime "github.com/wailsapp/wails/v2/pkg/runtime"
 
-	x365core "github.com/365vpn/x365/core"
+	x365core "github.com/SakurakaiCat/x365-core"
 
-	"github.com/365vpn/x365/desktop/internal/logbus"
-	"github.com/365vpn/x365/desktop/internal/nodestore"
-	"github.com/365vpn/x365/desktop/internal/probe"
-	"github.com/365vpn/x365/desktop/internal/sysproxy"
-	"github.com/365vpn/x365/desktop/internal/tun"
+	"github.com/SakurakaiCat/x365-desktop/internal/logbus"
+	"github.com/SakurakaiCat/x365-desktop/internal/nodestore"
+	"github.com/SakurakaiCat/x365-desktop/internal/probe"
+	"github.com/SakurakaiCat/x365-desktop/internal/sysproxy"
+	"github.com/SakurakaiCat/x365-desktop/internal/tun"
 )
 
 // App is the main application struct bound to the Wails frontend.
