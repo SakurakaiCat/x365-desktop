@@ -60,4 +60,4 @@ require (
 	gvisor.dev/gvisor v0.0.0-20260701204157-69c2d17aea96 // indirect
 )
 
-replace github.com/365vpn/x365 => ..
+replace github.com/365vpn/x365 => ../x365-core
