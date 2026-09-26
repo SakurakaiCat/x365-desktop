@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	x365core "github.com/365vpn/x365/core"
+	x365core "github.com/SakurakaiCat/x365-core"
 
-	"github.com/365vpn/x365/desktop/internal/logbus"
+	"github.com/SakurakaiCat/x365-desktop/internal/logbus"
 )
 
 // ExitInfo holds the exit-node network identity, queried through the local SOCKS5.
